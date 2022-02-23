@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
@@ -41,7 +41,188 @@ body {
       border-bottom: 2px solid yellowgreen;
       float: left;
       margin-left: 20px;
+      width:fit-content;
+
   }
   .about{
-      display: block;
+    font-size: 25px;
+      display: flex;
+      flex-direction: column;
+      
+  
   }
+  .para{
+    text-align: justify;
+    margin-left: 10%;
+    display: block;
+    margin-right: 10%;
+  } */
+
+  .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl{
+    background-color: lightgoldenrodyellow
+    
+  }
+
+  body{
+    /* background-color: #333; */
+    background: #323445;
+    /* background: linear-gradient(to right, #FBFF00, #FF004A);
+    background: linear-gradient(to right, #00FFF7, #0043FF); */
+    /* background: rgba(255, 255, 255, 0.2); */
+    backdrop-filter: blur(6px);
+    color: rgba(255, 255, 255, 0.9);
+  }
+  /* img varti aahe he sgl */
+  .bgimage {
+    height:100vh;
+    background: url('sunny1.jpg');
+    background-size:cover;
+    position:relative;
+
+  }
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+  }
+  .tab{
+   
+    /* background-color:chartreuse; 
+    /* background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 100px rgba(#fff, #fff, #fff, 0.5);
+	backdrop-filter: blur(30px);
+ opacity: 0.5; */
+ width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid hsl(var(--clr-white));
+  height: 40px;
+  color: hsl(var(--clr-white));
+  padding-top: 10px;
+    /* border:2px;
+    font-size: 18px;
+    border: rgba(#ffffff, #fff, #fff, 0.5);
+    border-radius: 10px;
+    padding: 5px; */
+  }
+  /* .tab:hover{
+    padding: 8px;
+    border:2px solid black;
+    border-radius: 10px;
+  } */
+  .text-center{
+    color: black;
+    background-color: lightskyblue;
+    border: 2px;
+    width: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .col-md-6{
+    color: gold;
+  }
+  .col-lg-8{
+  font-family:Arial;
+  color: black;
+  font-size: 18px;
+  }
+  /* img varti text aahe tyachi css*/
+  .hero_title {
+    font-size: 4.5rem;
+  }
+  .hero_desc {
+    font-size: 2rem;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  /* about sec chi css */
+  .imageAboutPage {
+    width: 100%;
+    font-style: aquamarine;
+  }
+  /* services section chi css */
+  .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    background-color:chartreuse;
+  }
+  /* .col-lg-4mt-4{ */
+    /* border: #008000 ; */
+    /* ; */
+  }
+  .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+  }
+  .card-title {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+  }
+  .card:hover .servicesIcon {
+    color: #170080;
+    /* border-width: 20px; */
+  }
+  .servicesText:hover {
+    border: 5px solid #0b060c;
+    
+  }
+  /* display background color black on navbar scroll */
+  .navbarScroll.navbarDark {
+    background-color: black;
+  }
+  /* social media icons styling */
+  .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+  }
+  .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+  }
+  .fab {
+    color: #000000;
+  }
+  /* footer chi styling */
+  #footer {
+    background-color: #808080;
+    text-align: center;
+  }
+/* #services{
+    background-color:#000000;
+    position: relative;
+    width: 2400px;
+    height: 300px;
+    margin: 240px auto; */
+  
+  }
+  .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: gold;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    
+
+  }
+  /* spaces aahet he */
+  #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  #contact {
+    padding-bottom: 4rem;
+  }
+  
+  /* kashi aahe website */
